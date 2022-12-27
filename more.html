@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>More- KoKoa Clone</title>
+  </head>
+
+  <body>
+    <!-- 화면 상단 상태바 -->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fa-solid fa-battery-quarter fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <!-- 스크린 헤더 -->
+    <header class="screen-header">
+      <h1 class="screen-header__title">More</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <a href="settings.html"
+          ><span><i class="fas fa-cog fa-lg"></i></span
+        ></a>
+      </div>
+    </header>
+
+    <!-- 채널 리스트 -->
+    <main class="main-screen more-screen">
+      <!-- 유저컴포넌트 -->
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://avatars3.githubusercontent.com/u/3612017"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Nicolas</h4>
+            <h6 class="user-component__subtitle">
+              +1 787-493-4219 <i class="fa-solid fa-circle-exclamation"></i>
+            </h6>
+          </div>
+        </div>
+        <div class="usercomponent__column">
+          <i class="far fa-comment-alt fa-2x"></i>
+        </div>
+      </div>
+
+      <!-- 아이콘 영역 -->
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="far fa-calendar"></i>
+          <span>Calendar</span>
+        </div>
+
+        <div class="icon-row__icon">
+          <i class="far fa-hard-drive"></i>
+          <span class="dotpoint icon-row__dotpoint"></span>
+          <span>Talk Drive</span>
+        </div>
+
+        <div class="icon-row__icon">
+          <i class="far fa-face-smile"></i>
+          <span>Emoticons</span>
+        </div>
+
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-brush"></i>
+          <span>Themes</span>
+        </div>
+
+        <div class="icon-row__icon">
+          <i class="far fa-circle-user"></i>
+          <span>Account</span>
+        </div>
+
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-comments"></i>
+          <span>Openchat</span>
+        </div>
+      </div>
+
+      <div class="suggestion">
+        <div class="suggestion__header">
+          <span>Suggestion</span>
+        </div>
+        <div class="suggestion-icon-row">
+          <div class="icon-row__icon">
+            <img src="img/카카오스토리_아이콘.jpg" />
+            <span>Kakao Story</span>
+          </div>
+          <div class="icon-row__icon">
+            <img src="img/카카오 프렌즈.webp" />
+            <span>Kakao friends</span>
+          </div>
+          <div class="icon-row__icon">
+            <img src="img/다운로드 (1).jpg" />
+            <span>Friends Gem</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- 각 페이지 작업할 때마다 추가작업 필요 -->
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fa-solid fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="fa-regular fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__dot"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- 스크립트 -->
+    <script
+      src="https://kit.fontawesome.com/eebda4e76a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

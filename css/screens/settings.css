@@ -1,0 +1,39 @@
+.setting-setting {
+  padding: 24px 0;
+  font-size: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.setting-list .setting-setting:last-child {
+  border-bottom: 0;
+}
+.setting-setting__column {
+  display: flex;
+  align-items: center;
+}
+
+.setting-setting__column span {
+  font-size: 22px;
+}
+
+.setting-setting__column:last-child {
+  text-align: end;
+  opacity: 0.5;
+}
+
+.setting-setting__column i {
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.border-line {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 15px 0px;
+}
+.setting-setting__column .badge-alphabet {
+  margin-left: 10px;
+  font-size: 11px;
+}

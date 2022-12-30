@@ -2,23 +2,24 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 35px var(--horizontal-space);
+  padding: 50px var(--horizontal-space) 20px;
 }
 
 .alt-header__column {
   display: flex;
   width: 33%;
   font-size: 25px;
-}
-
-.alt-header__column:first-child {
   align-items: center;
 }
+
+.alt-header__column i:not(i:last-child) {
+  margin-right: 25px;
+}
+
 .alt-header__column:nth-child(2) {
   justify-content: center;
   font-weight: 600;
 }
 .alt-header__column:last-child {
   justify-content: flex-end;
-  align-items: center;
 }
